@@ -1,0 +1,45 @@
+/* Estiliza o cabeçalho principal */
+.header {
+  width: 80%; /* ocupa toda a largura da tela */
+  background-color: #3d542c; /* cor de fundo clara para destaque */
+  box-shadow: black 0px 0px 20px; /* sombra para dar profundidade */
+  margin: 20px auto; /* centraliza o cabeçalho com margem superior/inferior */
+  padding: 1rem 2rem; /* espaço interno no topo/baixo e nas laterais */
+  position: sticky;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+/* Container da barra de navegação e da logo */
+.header-bar {
+  max-width: 1200px; /* limite de largura para o conteúdo */
+  margin: 0 auto; /* centraliza horizontalmente */
+  display: flex; /* usa flexbox para alinhar elementos lado a lado */
+  justify-content: space-between; /* separa logo à esquerda e menu à direita */
+  align-items: center; /* alinha verticalmente ao centro */
+}
+
+/* Container da logo */
+.logo-wrapper img {
+  height: 100px; /* define altura padrão da logo */
+  object-fit: contain; /* garante que a logo não distorça */
+}
+
+/* Estilização da navegação */
+.header-nav {
+  display: flex; /* organiza os links em linha */
+  gap: 1.5rem; /* espaçamento entre os links */
+}
+
+/* Estilo dos links de navegação */
+.header-nav a {
+  text-decoration: none; /* remove o sublinhado */
+  color: #d9d05b; /* cor do texto */
+  font-weight: bold; /* espessura média da fonte */
+  transition: color 0.3s ease; /* animação suave ao passar o mouse */
+}
+
+/* Efeito hover nos links */
+.header-nav a:hover {
+  color: #004b31; /* cor ao passar o mouse (verde escuro místico) */
+}
