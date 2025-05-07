@@ -1,45 +1,57 @@
-/* Estiliza o cabeçalho principal */
 .header {
-  width: 80%; /* ocupa toda a largura da tela */
-  background-color: #3d542c; /* cor de fundo clara para destaque */
-  box-shadow: black 0px 0px 20px; /* sombra para dar profundidade */
-  margin: 20px auto; /* centraliza o cabeçalho com margem superior/inferior */
-  padding: 1rem 2rem; /* espaço interno no topo/baixo e nas laterais */
-  position: sticky;
-  z-index: 10;
-  border-radius: 10px;
+  padding-top: 10%; /* Espaço acima do cabeçalho, usado para empurrar o conteúdo para baixo */
+  z-index: 1; /* Garante que o cabeçalho fique sobre outros elementos */
+  position: relative; /* Permite posicionar elementos filhos de forma absoluta em relação a este */
+  display: flex; /* Usa flexbox para alinhar os elementos filhos */
+  justify-content: center; /* Centraliza os elementos filhos horizontalmente */
+  max-width: 80%; /* Limita a largura máxima do cabeçalho a 80% da tela */
+  margin: 0 auto; /* Centraliza o cabeçalho horizontalmente */
+  padding: 2rem 0; /* Espaçamento vertical interno */
 }
 
-/* Container da barra de navegação e da logo */
 .header-bar {
-  max-width: 1200px; /* limite de largura para o conteúdo */
-  margin: 0 auto; /* centraliza horizontalmente */
-  display: flex; /* usa flexbox para alinhar elementos lado a lado */
-  justify-content: space-between; /* separa logo à esquerda e menu à direita */
-  align-items: center; /* alinha verticalmente ao centro */
+  display: flex; /* Flexbox para organizar o logo e os links */
+  align-items: center; /* Alinha verticalmente ao centro */
+  justify-content: space-evenly; /* Distribui os itens com espaços iguais entre eles */
+  background-color: #1b4332; /* Cor de fundo escura */
+  border-radius: 20px; /* Bordas arredondadas */
+  padding: 2rem 3rem; /* Espaçamento interno (vertical e horizontal) */
+  width: 90%; /* Ocupa 90% da largura do contêiner pai */
+  max-width: 1000px; /* Não ultrapassa 1000px de largura */
+  position: relative; /* Permite posicionar o logo centralizado com position absolute */
 }
 
-/* Container da logo */
+.logo-wrapper {
+  position: absolute; /* Posiciona o logo de forma absoluta dentro do header-bar */
+  left: 50%; /* Move o elemento para o meio horizontal */
+  transform: translate(-50%, -5%); /* Ajuste fino para centralização exata */
+  padding: 0 1rem; /* Espaço horizontal em volta do logo */
+  z-index: 2; /* Garante que o logo fique acima de outros elementos */
+}
+
 .logo-wrapper img {
-  height: 100px; /* define altura padrão da logo */
-  object-fit: contain; /* garante que a logo não distorça */
+  height: 140px; /* Define a altura da imagem do logo */
+  object-fit: contain; /* Garante que a imagem mantenha proporção e se encaixe no espaço */
 }
 
-/* Estilização da navegação */
 .header-nav {
-  display: flex; /* organiza os links em linha */
-  gap: 1.5rem; /* espaçamento entre os links */
+  display: flex; /* Flexbox para alinhar os links */
+  justify-content: center; /* Centraliza os links no espaço disponível */
+  align-items: center; /* Alinha verticalmente */
+  font-weight: bold; /* Texto em negrito */
+  font-size: 1rem; /* Tamanho da fonte */
+  color: #f2e6d0; /* Cor padrão dos textos do menu */
+  gap: 2rem; /* Espaço entre cada link */
 }
 
-/* Estilo dos links de navegação */
 .header-nav a {
-  text-decoration: none; /* remove o sublinhado */
-  color: #d9d05b; /* cor do texto */
-  font-weight: bold; /* espessura média da fonte */
-  transition: color 0.3s ease; /* animação suave ao passar o mouse */
+  color: #fefee3; /* Cor do texto do link */
+  text-decoration: none; /* Remove sublinhado padrão */
+  font-size: 1.2rem; /* Tamanho da fonte dos links */
+  padding: 0.2rem; /* Espaçamento interno dos links */
+  transition: color 0.3s ease; /* Suaviza a transição de cor ao passar o mouse */
 }
 
-/* Efeito hover nos links */
 .header-nav a:hover {
-  color: #004b31; /* cor ao passar o mouse (verde escuro místico) */
+  color: #8c648a; /* Cor dos links ao passar o mouse */
 }

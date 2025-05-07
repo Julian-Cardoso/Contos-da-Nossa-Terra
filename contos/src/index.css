@@ -2,12 +2,56 @@ h1,
 h2,
 h3,
 a {
-  font-family: Cinzel, sans-serif;
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Sombra um pouco mais forte */
 }
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #f2e9e4; /* Bege arenoso */
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #8c648a; /* Dourado envelhecido */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Sombra mais pronunciada no hover */
+}
+
 p {
-  font-family: Spectral, sans-serif;
+  font-family: "Spectral SC", serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #f2e9e4;
 }
 
 body {
-  background-color: #142615;
+  background-color: #f5f5f5;
+  color: #f2e9e4;
+  font-family: "Spectral SC", serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para links dentro do texto <p> */
+p a {
+  color: #a98467; /* Dourado envelhecido */
+  font-weight: bold;
+}
+
+p a:hover {
+  color: #8c648a; /* Amarelo suave */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
