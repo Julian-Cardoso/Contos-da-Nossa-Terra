@@ -10,14 +10,10 @@ export default function Infor() {
         <p className="infor-text">
           O Contos da Nossa Terra surgiu para resgatar e valorizar lendas
           contadas por nossos avós, vindas das margens dos rios e do coração das
-          matas.
-        </p>
-        <p className="infor-text">
+          matas. <br />
           Curupira, Iara, Saci e outros seres encantados fazem parte da nossa
           identidade cultural. Mais que histórias, são memórias vivas que
-          queremos manter acesas para as novas gerações.
-        </p>
-        <p className="infor-text">
+          queremos manter acesas para as novas gerações. <br />
           Cada criatura aqui é um elo com o passado e um convite a imaginar o
           futuro, unindo tradição e fantasia.
         </p>
