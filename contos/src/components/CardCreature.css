@@ -2,8 +2,68 @@
 Header
 ======================== */
 .header-section {
-  align-self: baseline;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px; /* Igual ao card */
+  padding: 0 1rem;
+  margin: 2rem auto;
   color: #1b4332;
+}
+
+.creature-sort {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  padding: 0.4rem 2rem 0.4rem 1rem;
+  font-family: "Cinzel", serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1b4332;
+
+  border: 1px solid #8e6a8c;
+  border-radius: 999px; /* botão oval */
+  background-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 12px;
+
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  min-width: 120px;
+}
+
+.creature-sort:hover,
+.creature-sort:focus {
+  border-color: #5c3c58;
+  outline: none;
+}
+
+.sort-select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.sort-label {
+  margin-right: 1rem;
+}
+
+.select-icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg); /* ajuste de rotação aqui */
+  width: 24px;
+  height: 24px;
+  pointer-events: none; /* permite clicar no select normalmente */
+}
+
+.sort-label {
+  font-size: 1rem;
+  color: #1b4332;
+  font-weight: 600;
 }
 
 /* ========================
@@ -45,6 +105,7 @@ Imagem da Criatura
 .creature-img {
   width: 160px;
   height: 240px;
+  align-self: center;
   object-fit: cover;
   border-radius: 16px;
 }
