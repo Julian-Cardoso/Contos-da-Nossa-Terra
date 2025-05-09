@@ -1,4 +1,4 @@
-type CreatureRegion = "Norte" | "Sul" | "centro-oeste" | "sudeste" | "nordeste";
+type CreatureRegion = "Norte" | "Sul" | "Centro-Oeste" | "Sudeste" | "Nordeste";
 
 export class Creature {
   public img: string;

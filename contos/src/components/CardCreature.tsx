@@ -3,17 +3,37 @@ import "./CardCreature.css";
 
 export const Creatures = () => {
   const creaturesService = new CreatureService();
+
   return (
-    <div className="creatures">
+    <div className="creature-container">
       {creaturesService.getAllCreatures().map((creature) => (
-        <div key={creature.name} className="creature-card">
-          <img src={creature.img} alt={creature.name} />
-          <h2>{creature.name}</h2>
-          <p>{creature.title}</p>
-          <p>{creature.region}</p>
-          <p>{creature.origin}</p>
-          <p>{creature.description}</p>
-          <p>{creature.history}</p>
+        <div className="creature-card">
+          <img
+            className="creature-img"
+            src={creature.img}
+            alt={creature.name}
+          />
+          <div className="creature-content">
+            <div className="creature-header">
+              <h2 className="creature-name">{creature.name}</h2>
+              <p className="creature-title">{creature.title}</p>
+            </div>
+            <div className="creature-info">
+              <p>
+                <strong>Região:</strong> {creature.region}
+              </p>
+              <p>
+                <strong>Origem:</strong> {creature.origin}
+              </p>
+              <p>
+                <strong>Curiosidade:</strong> {creature.description}
+              </p>
+            </div>
+          </div>
+          <div className="creature-divider"></div>
+          <div className="creature-history">
+            <p>{creature.history}</p>
+          </div>
         </div>
       ))}
     </div>
