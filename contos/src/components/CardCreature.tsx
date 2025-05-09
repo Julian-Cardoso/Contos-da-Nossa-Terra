@@ -1,4 +1,5 @@
 import { CreatureService } from "../data/creatures-service";
+import { Button } from "./Button";
 import "./CardCreature.css";
 
 export const Creatures = () => {
@@ -6,6 +7,9 @@ export const Creatures = () => {
 
   return (
     <div className="creature-container">
+      <div className="header-section">
+        <h1 className="header-title">Nossos contos</h1>
+      </div>
       {creaturesService.getAllCreatures().map((creature) => (
         <div className="creature-card">
           <img
@@ -26,13 +30,19 @@ export const Creatures = () => {
                 <strong>Origem:</strong> {creature.origin}
               </p>
               <p>
-                <strong>Curiosidade:</strong> {creature.description}
+                <strong>Caracteristicas:</strong> {creature.description}
               </p>
             </div>
           </div>
           <div className="creature-divider"></div>
           <div className="creature-history">
             <p>{creature.history}</p>
+            <div className="creature-button">
+              <Button
+                text="Conheça a história"
+                onClick={() => console.log("Abrir modal")}
+              />
+            </div>
           </div>
         </div>
       ))}
