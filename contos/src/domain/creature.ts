@@ -7,7 +7,8 @@ export class Creature {
   public region: CreatureRegion;
   public origin: string;
   public description: string;
-  public history: string;
+  public historyShort: string;
+  public historyLong: string;
 
   constructor(
     img: string,
@@ -16,7 +17,8 @@ export class Creature {
     region: CreatureRegion,
     origin: string,
     description: string,
-    history: string
+    historyShort: string,
+    historyLong: string
   ) {
     this.img = img;
     this.name = name;
@@ -24,6 +26,7 @@ export class Creature {
     this.region = region;
     this.origin = origin;
     this.description = description;
-    this.history = history;
+    this.historyShort = historyShort;
+    this.historyLong = historyLong;
   }
 }

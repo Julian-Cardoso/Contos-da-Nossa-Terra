@@ -97,9 +97,11 @@ export const Creatures = () => {
             <div className="creature-divider"></div>
 
             <div className="creature-history">
-              <div className="creature-history-text">
-                <p>{creature.historyShort}</p>
-              </div>
+              {!isExpanded && (
+                <div className="creature-history-text">
+                  <p>{creature.historyShort}</p>
+                </div>
+              )}
 
               {isExpanded && (
                 <div className="creature-history-text-long">
