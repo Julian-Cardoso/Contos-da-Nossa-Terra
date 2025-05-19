@@ -1,4 +1,4 @@
-import LogoutIcon from "../assets/logout.svg"; // ajuste para o caminho correto
+import LogoutIcon from "../../assets/logout.svg"; // ajuste para o caminho correto
 import "./Button.css";
 
 interface ButtonProps {

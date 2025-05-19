@@ -6,30 +6,35 @@ Header
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1000px; /* Igual ao card */
+  max-width: 1000px;
   padding: 0 1rem;
   margin: 2rem auto;
   color: #1b4332;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sort-label {
+  font-size: 1rem;
+  color: #1b4332;
+  font-weight: 600;
 }
 
 .creature-sort {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-
   padding: 0.4rem 2rem 0.4rem 1rem;
   font-family: "Cinzel", serif;
   font-size: 1rem;
   font-weight: 500;
   color: #1b4332;
-
   border: 1px solid #8e6a8c;
-  border-radius: 999px; /* botão oval */
-  background-color: rgba(255, 255, 255, 0);
+  border-radius: 999px;
+  background-color: transparent;
   background-repeat: no-repeat;
   background-position: right 0.8rem center;
   background-size: 12px;
-
   cursor: pointer;
   transition: border-color 0.3s ease;
   min-width: 120px;
@@ -41,29 +46,14 @@ Header
   outline: none;
 }
 
-.sort-select-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-.sort-label {
-  margin-right: 1rem;
-}
-
 .select-icon {
   position: absolute;
   right: 1rem;
   top: 50%;
-  transform: translateY(-50%) rotate(0deg); /* ajuste de rotação aqui */
+  transform: translateY(-50%);
   width: 24px;
   height: 24px;
-  pointer-events: none; /* permite clicar no select normalmente */
-}
-
-.sort-label {
-  font-size: 1rem;
-  color: #1b4332;
-  font-weight: 600;
+  pointer-events: none;
 }
 
 /* ========================
@@ -75,7 +65,6 @@ Container Principal
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
   max-width: 80%;
   margin: 0 auto;
   padding: 1rem 0;
@@ -89,14 +78,19 @@ Card da Criatura
 .creature-card {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: stretch;
   padding: 1rem;
   gap: 1.5rem;
-  background-color: #f8f8f8; /* papel envelhecido */
+  background-color: #f8f8f8;
   border-radius: 20px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 1000px;
+  transition: transform 0.7s ease;
+}
+
+.creature-card:hover {
+  transform: scale(1.05);
 }
 
 /* ========================
@@ -117,6 +111,7 @@ Conteúdo Principal do Card
   display: flex;
   flex-direction: column;
   flex: 1;
+  height: 100%;
   padding-top: 0.2rem;
   gap: 3rem;
 }
@@ -147,7 +142,6 @@ Nome e Título
 /* ========================
 Informações da Criatura
 ======================== */
-
 .creature-info p {
   color: #1b4332;
   font-size: 0.95rem;
@@ -166,19 +160,19 @@ Divisor Vertical
   align-self: stretch;
 }
 
-/* ========================
-História da Criatura
-======================== */
 .creature-history {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
-  flex: 1;
-  font-weight: 500;
-  font-size: 0.95rem;
+  text-align: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+
+.creature-history p {
   color: #1b4332;
-  padding-top: 0.2rem;
-  padding-left: 1rem;
-  line-height: 1.5;
+  font-size: 0.95rem;
+  margin: 0.2rem;
+  line-height: 1.4;
 }

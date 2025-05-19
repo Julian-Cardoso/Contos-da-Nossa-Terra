@@ -27,3 +27,7 @@ input,
 textarea {
   font-family: "Karla", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
