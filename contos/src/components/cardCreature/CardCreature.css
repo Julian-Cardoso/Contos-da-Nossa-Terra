@@ -46,16 +46,6 @@ Header
   outline: none;
 }
 
-.select-icon {
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 24px;
-  height: 24px;
-  pointer-events: none;
-}
-
 /* ========================
 Container Principal
 ======================== */
@@ -90,7 +80,7 @@ Card da Criatura
 }
 
 .creature-card:hover {
-  transform: scale(1.05);
+  background-color: #e9ffe9;
 }
 
 /* ========================
