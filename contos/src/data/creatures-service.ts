@@ -130,7 +130,7 @@ export class CreatureService {
       "Folclore popular oral",
       "Criatura assustadora em forma de cabra demoníaca que devora crianças desobedientes.",
       "A Cabra-Cabriola é usada para assustar crianças que não obedecem aos pais. Com olhos vermelhos e chifres afiados, surge das trevas para punir os malcriados. Uma lenda de cunho moral usado na educação tradicional.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "Quando a noite cai pesada e o vento geme entre as frestas das portas, é melhor obedecer. Dizem que, nas sombras mais fundas, a Cabra-Cabriola espreita, com olhos que brilham como brasas e cascos que não fazem barulho. Ela sente o cheiro da desobediência, fareja travessuras e mentiras. Ninguém sabe de onde vem, só que aparece quando menos se espera: atrás da cortina, debaixo da cama, ou no escuro do quintal. Conta-se que certa vez, um menino teimoso desafiou a mãe e saiu sozinho pela rua deserta. Sentiu um frio estranho e, ao olhar para trás, viu dois olhos vermelhos o seguindo. Correu, tropeçou, e jurou nunca mais desobedecer. Quando chegou em casa, encontrou um tufo de pelo preto na soleira da porta. Desde então, toda criança do Nordeste sabe: se ouvir um balido rouco no escuro, é melhor correr para a cama e fechar os olhos. A Cabra-Cabriola só leva quem esquece de ouvir o coração e respeitar os mais velhos."
     ),
     new Creature(
       "https://i.pinimg.com/736x/af/1b/29/af1b294f9b8078cced98dcb7de129fd9.jpg",
@@ -140,7 +140,7 @@ export class CreatureService {
       "Mistura de lendas indígenas, africanas e ibéricas",
       "Jovem de cabelos longos que vive na mata, protegendo animais e punindo quem a desrespeita.",
       "Comadre Fulozinha assovia pelos ventos e castiga aqueles que caçam por maldade ou entram em seu território sem permissão. Representa o sincretismo religioso e o respeito às forças femininas da natureza.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "No coração da mata fechada, onde o vento canta melodias que ninguém entende, vive Comadre Fulozinha. Seus cabelos são longos como cipós, e seus olhos brilham como gotas de orvalho ao sol. Dizem que ela aparece como um vulto leve, quase invisível, mas seu assovio é inconfundível — ora doce, ora assustador. Quem entra na floresta sem pedir licença sente logo um arrepio e escuta o vento sussurrar seu nome. Caçadores gananciosos perdem o caminho, e quem maltrata bicho sente os galhos se fecharem como braços protetores. Mas há quem diga que, certa vez, uma menina perdida chorou baixinho entre as árvores. O vento soprou suave, e a Comadre apareceu, penteando os cabelos com folhas verdes. Pegou a menina pela mão e, num piscar de olhos, a levou de volta para casa, deixando um fio de cabelo dourado preso na porta. Desde então, quem respeita a mata pode ouvir, ao entardecer, um assovio alegre — sinal de que a Comadre Fulozinha está por perto, cuidando de tudo e de todos."
     ),
     new Creature(
       "https://i.pinimg.com/736x/9d/b4/99/9db499b2e230f6cfcae5ca5098928a2a.jpg",
@@ -150,7 +150,7 @@ export class CreatureService {
       "Folclore urbano popular",
       "Homem misterioso que anda com um saco nas costas, levando embora crianças desobedientes.",
       "Contado principalmente nas cidades, o Homem do Saco é uma figura assustadora usada por pais para manter os filhos obedientes. Suas origens são incertas, mas tornou-se símbolo do medo do desconhecido urbano.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "Quando a cidade adormece e as luzes se apagam nas janelas, o Homem do Saco começa a andar pelas ruas silenciosas. Ninguém sabe seu nome, nem de onde veio. Dizem que veste roupas velhas e carrega um saco enorme nas costas, onde guarda segredos e sonhos perdidos. Ele aparece de repente, nas esquinas escuras ou atrás dos muros, sempre à procura de crianças que desobedecem, fazem travessuras ou fogem de casa sem avisar. Mas há quem diga que, certa noite, uma menina curiosa resolveu segui-lo. Em vez de medo, sentiu pena daquele homem solitário. Quando ele percebeu, parou e tirou do saco um brinquedo antigo, devolvendo à menina um sorriso esquecido. Desde então, alguns acreditam que o Homem do Saco não leva apenas crianças, mas também tristezas e saudades. Mesmo assim, é melhor obedecer — pois nunca se sabe o que ele carrega em seu saco misterioso."
     ),
     new Creature(
       "https://i.pinimg.com/736x/05/8b/a3/058ba3b17929adc1143488d398fc57d0.jpg",
@@ -160,7 +160,7 @@ export class CreatureService {
       "Folclore amazônico",
       "Velha bruxa que se transforma em pássaro noturno e assovia nos telhados das casas.",
       "Matinta Pereira é uma figura lendária do Norte do Brasil. À noite, transforma-se em um pássaro agourento e assovia nos telhados. Os moradores devem prometer fumo ou comida para que ela vá embora. No dia seguinte, uma velha aparece para cobrar a promessa.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "Quando a noite cai e o silêncio toma conta das casas, um assovio fino corta o ar, vindo do telhado. É Matinta Pereira, a bruxa que se transforma em pássaro negro para visitar quem não respeita os mistérios da noite. Dizem que ela voa leve, quase invisível, mas seu assovio arrepia até os mais corajosos. Quem escuta deve logo prometer fumo ou comida, senão a visita se repete, cada vez mais assustadora. No dia seguinte, uma velha de olhos brilhantes aparece à porta, cobrando a promessa feita na escuridão. Mas há quem conte que, certa vez, uma criança deixou um pedaço de bolo na janela, junto com um bilhete de amizade. Matinta levou o presente e, em troca, nunca mais assoviou naquela casa. Desde então, quem respeita a noite e oferece gentileza pode dormir tranquilo — pois Matinta só assusta quem esquece de ser generoso."
     ),
     new Creature(
       "https://i.pinimg.com/736x/57/90/76/579076fdc7a84ae2c724011d0086e961.jpg",
@@ -170,7 +170,7 @@ export class CreatureService {
       "Lendas do Maranhão e Pará",
       "Mulher que, à noite, tem sua cabeça transformada em uma bola de fogo que vaga pelos céus.",
       "Segundo a lenda, quando uma mulher tem sete filhas, a última pode se transformar em Curacanga. À noite, sua cabeça se desprende do corpo e vaga como uma bola de fogo, assustando os viajantes noturnos.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "Nas noites mais escuras, quando o céu parece um manto sem estrelas, uma luz vermelha risca o horizonte. É a Curacanga, a cabeça de fogo que voa sobre vilarejos e rios, assombrando quem ousa sair tarde demais. Dizem que, ao longe, parece uma estrela cadente, mas quem chega perto sente o calor e ouve um lamento triste. A cabeça vaga em busca de paz, mas só encontra medo e espanto. Conta-se que, certa vez, um pescador perdido seguiu a luz da Curacanga e, em vez de se assustar, rezou por sua alma. A cabeça de fogo parou, iluminou o caminho de volta e desapareceu no céu. Desde então, quem vê a Curacanga deve respeitar seu sofrimento e não zombar de sua dor — pois toda luz errante carrega uma história de saudade e esperança."
     ),
     new Creature(
       "https://i.pinimg.com/736x/d6/71/2f/d6712f999fcea68530489d35b114fb13.jpg",
@@ -180,7 +180,7 @@ export class CreatureService {
       "Lendas indígenas do Maranhão e Pará",
       "Criatura humanoide com cabeça de anta ou tamanduá, que se alimenta de crianças recém-nascidas.",
       "O Capelobo é uma criatura temida nas regiões do Rio Xingu. Com corpo coberto de pelos e cabeça de anta ou tamanduá, ataca aldeias para se alimentar de crianças, sendo uma das lendas mais assustadoras da região.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "No silêncio profundo das matas do Xingu, onde a lua mal toca o chão, o Capelobo caminha devagar, deixando pegadas fundas e um cheiro forte de terra molhada. Seu corpo é coberto de pelos grossos, e sua cabeça lembra uma anta ou tamanduá, com olhos pequenos e atentos. Dizem que ele aparece quando a aldeia esquece de proteger os recém-nascidos ou desrespeita os espíritos da floresta. Seu urro ecoa entre as árvores, assustando até os mais valentes. Mas há quem conte que, certa noite, uma mãe desesperada pediu proteção aos ancestrais. O Capelobo apareceu, mas em vez de atacar, ficou parado, observando. Sentiu o amor da mãe e, em silêncio, virou-se e sumiu na mata. Desde então, os mais antigos ensinam: respeito e cuidado afastam até os monstros mais temidos."
     ),
     new Creature(
       "https://i.pinimg.com/736x/15/4d/ed/154ded0d893a4cb71516c0e1733447b0.jpg",
@@ -190,7 +190,7 @@ export class CreatureService {
       "Folclore regional",
       "Homem com pés em forma de garrafa que paralisa suas vítimas com urros assustadores.",
       "Pé de Garrafa é uma criatura misteriosa que habita as matas do Centro-Oeste. Com pés redondos em forma de garrafa, emite urros que paralisam suas vítimas, capturando suas almas e causando terror entre os viajantes.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "Dizem que, nas trilhas esquecidas do Centro-Oeste, o chão guarda marcas redondas, como se garrafas tivessem caminhado sozinhas. São os rastros do Pé de Garrafa, criatura que aparece quando a noite está mais escura e o medo mais forte. Seu urro é tão poderoso que paralisa quem escuta, deixando o coração batendo forte e os olhos arregalados. Mas há quem diga que, certa vez, um velho viajante, ao ouvir o urro, não sentiu medo, mas compaixão. Rezou baixinho e deixou uma garrafa de cachaça na beira da trilha. O Pé de Garrafa apareceu, cheirou o presente e, satisfeito, deixou o homem seguir em paz. Desde então, quem respeita a mata e oferece presentes pode cruzar com o Pé de Garrafa e voltar para casa com histórias para contar."
     ),
     new Creature(
       "https://i.pinimg.com/736x/9f/3f/0a/9f3f0ab2a6efa4b1d61865f3945e67ed.jpg",
@@ -200,7 +200,7 @@ export class CreatureService {
       "Folclore de Minas Gerais",
       "Criatura coberta por folhas de bananeira que assusta crianças desobedientes.",
       "Chibamba é o equivalente mineiro do bicho-papão. Coberto por folhas de bananeira, aparece à noite para assustar crianças que se recusam a dormir, sendo uma figura utilizada para disciplinar os pequenos.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "Quando a noite chega e o cheiro de café se mistura ao vento das montanhas, o Chibamba acorda. Coberto de folhas de bananeira, ele se esconde nos quintais e jardins, esperando o momento certo para assustar quem não quer dormir. Seu andar é leve, mas o farfalhar das folhas denuncia sua presença. Dizem que, certa vez, uma criança corajosa resolveu enfrentar o Chibamba e deixou um pedaço de bolo na janela. O bicho-papão apareceu, comeu o bolo e, em vez de assustar, deixou um bilhete: 'Durma cedo e sonhe bonito.' Desde então, quem respeita a hora do sono e não desafia o escuro pode dormir tranquilo — pois o Chibamba só assusta quem esquece de sonhar."
     ),
     new Creature(
       "https://i.pinimg.com/736x/24/12/a1/2412a1ef19d07a71412ae6129587c034.jpg",
@@ -210,7 +210,7 @@ export class CreatureService {
       "Lendas do Rio São Francisco",
       "Serpente titânica que vive no fundo dos rios, afundando barcos e devorando ocupantes.",
       "O Minhocão é uma serpente gigantesca que habita as profundezas do Rio São Francisco. Quando perturbado, afunda embarcações e devora seus ocupantes, sendo responsabilizado pela erosão dos barrancos.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "No fundo escuro do Rio São Francisco, onde a luz não alcança e o silêncio é profundo, dorme o Minhocão. Seu corpo é tão grande que dizem ser capaz de abraçar o rio inteiro. Quando está calmo, o rio corre tranquilo, mas basta alguém desafiar a natureza ou desrespeitar as águas para o Minhocão despertar. Ele se move devagar, fazendo a terra tremer e as margens desmoronarem. Mas há quem conte que, certa vez, um pescador salvou um filhote de peixe preso nas raízes. O Minhocão apareceu, olhou com olhos antigos e, em vez de atacar, deixou o barco seguir ileso. Desde então, quem respeita o rio e seus mistérios pode navegar em paz — mas quem desafia o Minhocão, nunca mais é visto."
     ),
     new Creature(
       "https://i.pinimg.com/736x/ec/3a/3c/ec3a3c6a38fd847eaf566beea2d5e6f0.jpg",
@@ -220,7 +220,7 @@ export class CreatureService {
       "Folclore de Pernambuco",
       "Perna peluda e desmembrada que aparece para agredir pessoas próximas a cemitérios.",
       "A Perna Cabeluda é uma entidade assustadora que aparece nas proximidades de cemitérios em Pernambuco. Sem corpo, apenas uma perna peluda que surge do nada para agredir quem encontra em seu caminho.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "Em noites de lua cheia, perto dos cemitérios de Pernambuco, quem anda sozinho pode ouvir um som estranho — como se algo pulasse no escuro. É a Perna Cabeluda, que aparece do nada, saltando e correndo atrás dos desavisados. Ninguém sabe de onde veio, nem por que só uma perna vaga pelo mundo. Dizem que ela persegue quem faz travessuras perto dos túmulos ou desrespeita os mortos. Mas há quem conte que, certa vez, um menino deixou flores num túmulo esquecido. A Perna Cabeluda apareceu, mas em vez de assustar, pulou alegremente ao redor do menino e sumiu na noite. Desde então, quem respeita os cemitérios pode andar tranquilo — mas quem desafia o mistério, corre o risco de levar uma rasteira inesperada."
     ),
     new Creature(
       "https://i.pinimg.com/736x/53/9d/da/539dda0212a1613c84d8e64ae4b5c74f.jpg",
@@ -230,7 +230,7 @@ export class CreatureService {
       "Lendas de São Paulo e Minas Gerais",
       "Cadáver ressequido de um homem tão mau que foi rejeitado pelo céu, inferno e terra.",
       "Corpo-Seco é o cadáver de um homem extremamente malvado que, após a morte, foi rejeitado pelo céu, inferno e até pela terra, que o vomitou. Agora, vaga pelo mundo assombrando os vivos.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "Quando a noite está mais escura e o vento sopra gelado, é sinal de que o Corpo-Seco pode estar por perto. Dizem que foi um homem tão mau que, ao morrer, nem o céu, nem o inferno, nem a terra quiseram seu corpo. Assim, ele vaga ressequido, com pele grudada nos ossos e olhos fundos, procurando alguém para assustar. Quem cruza seu caminho sente um frio na espinha e ouve passos secos atrás de si. Mas há quem diga que, certa vez, uma criança rezou por sua alma esquecida. O Corpo-Seco parou, olhou para o céu e, por um instante, uma lágrima escorreu de seus olhos secos. Desde então, quem reza pelos esquecidos pode andar sem medo — pois até as almas mais perdidas buscam um pouco de compaixão."
     ),
     new Creature(
       "https://i.pinimg.com/736x/1b/48/59/1b4859e9780858c9fb5b9cf1d2455878.jpg",
@@ -240,7 +240,7 @@ export class CreatureService {
       "Folclore gaúcho",
       "Ser pequeno e vermelho que rouba crianças e só as devolve mediante oferendas.",
       "Sanguanel é um duende travesso que habita os pinheiros do Sul do Brasil. À noite, rouba crianças pequenas e só as devolve quando recebe oferendas de água e mel, sendo temido pelas famílias da região.",
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "Entre os pinheiros altos e o nevoeiro das serras gaúchas, vive o Sanguanel. Pequeno, vermelho como brasa, ele aparece quando a noite cai e as crianças não querem dormir. Dizem que adora pregar peças, esconder brinquedos e, às vezes, levar os pequenos para passear entre as árvores. Mas não é malvado — só gosta de travessuras. Para ter as crianças de volta, basta deixar água fresca e mel na janela. Certa vez, uma mãe esqueceu a oferenda, mas deixou um bilhete pedindo desculpas. O Sanguanel, tocado pelo gesto, devolveu a criança e ainda deixou um pinhão de presente. Desde então, quem respeita o Sanguanel e suas brincadeiras pode dormir tranquilo — pois ele só leva quem esquece de agradecer à natureza e aos duendes do mato."
     ),
   ];
 
