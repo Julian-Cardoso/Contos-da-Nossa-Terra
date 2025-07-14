@@ -1,0 +1,104 @@
+/* === MODAL OVERLAY COM FUNDO BORRADO === */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* === CONTEÚDO DO MODAL === */
+.modal-content {
+  display: flex;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  gap: 2rem;
+  color: #1b4332;
+}
+
+/* === IMAGEM DA CRIATURA === */
+.modal-creature-img {
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* === BLOCO DE TEXTO (CABEÇALHO) === */
+.modal-header-content {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  gap: 2.5rem;
+}
+
+/* === NOME E TÍTULO === */
+.modal-creature-name {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.modal-creature-title {
+  font-size: 20px;
+  font-family: "Cinzel", serif;
+  margin: 0;
+}
+
+/* === INFORMAÇÕES DA CRIATURA === */
+.modal-creature-info p {
+  font-family: "Spectral", serif;
+  margin: 0;
+  font-size: 19px;
+}
+
+.modal-creature-info strong {
+  font-size: 22px;
+}
+
+/* === DIVISOR VERTICAL === */
+.modal-creature-divider {
+  width: 1px;
+  background-color: #8e6a8c;
+  align-self: stretch;
+}
+
+/* === HISTÓRIA DA CRIATURA === */
+.modal-creature-history {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+
+.modal-creature-history p {
+  font-size: 16px;
+  text-align: justify;
+  max-height: 370px;
+  overflow-y: auto;
+}
+
+/* Customização da barra de rolagem do scroll da história */
+.modal-creature-history p::-webkit-scrollbar {
+  width: 8px;
+  background: #f0e6f6;
+}
+
+.modal-creature-history p::-webkit-scrollbar-thumb {
+  background: #4e7464;
+  border-radius: 4px;
+}
+
+.modal-creature-history p {
+  scrollbar-color: #1b4332 #dbfff0;
+  scrollbar-width: thin;
+}
