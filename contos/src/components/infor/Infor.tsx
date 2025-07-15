@@ -1,5 +1,5 @@
 import guarana from "../../assets/guarana.png";
-import "./Infor.css";
+import "./infor.css";
 
 export default function Infor() {
   return (
