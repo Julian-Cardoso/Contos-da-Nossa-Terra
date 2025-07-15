@@ -16,8 +16,9 @@
   background: white;
   padding: 2rem;
   border-radius: 20px;
-  max-width: 960px;
-  height: 480px;
+  max-width: 800px;
+  width: 100%;
+  height: 400px;
   position: relative;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
   gap: 2rem;
@@ -26,7 +27,7 @@
 
 /* === IMAGEM DA CRIATURA === */
 .modal-creature-img {
-  width: 264px;
+  width: 200px;
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
@@ -36,7 +37,7 @@
 .modal-header-content {
   display: flex;
   flex-direction: column;
-  width: 385px;
+  width: 270px;
   gap: 2.5rem;
 }
 
@@ -84,4 +85,20 @@
   text-align: justify;
   max-height: 370px;
   overflow-y: auto;
+}
+
+/* Customização da barra de rolagem do scroll da história */
+.modal-creature-history p::-webkit-scrollbar {
+  width: 8px;
+  background: #f0e6f6;
+}
+
+.modal-creature-history p::-webkit-scrollbar-thumb {
+  background: #4e7464;
+  border-radius: 4px;
+}
+
+.modal-creature-history p {
+  scrollbar-color: #1b4332 #dbfff0;
+  scrollbar-width: thin;
 }

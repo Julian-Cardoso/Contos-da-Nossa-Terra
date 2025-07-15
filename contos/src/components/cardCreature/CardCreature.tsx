@@ -1,9 +1,9 @@
 import { useState } from "react";
 import arrowIcon from "../../assets/arrow-down.svg";
 import { CreatureService } from "../../data/creatures-service";
+import type { Creature } from "../../domain/creature";
 import { Button } from "../button/Button";
 import { Modal } from "../modalCreature/Modal";
-import type { Creature } from "../../domain/creature";
 import "./CardCreature.css";
 
 // Tipos de chaves válidas para ordenação
@@ -28,12 +28,14 @@ export const Creatures = () => {
     .sort((a, b) => a[sortKey].localeCompare(b[sortKey]));
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedCreature, setSelectedCreature] = useState<Creature | undefined>();
+  const [selectedCreature, setSelectedCreature] = useState<
+    Creature | undefined
+  >();
 
   const openModal = (creature: Creature) => {
     setSelectedCreature(creature);
     setIsModalOpen(true);
-  }
+  };
 
   return (
     <div className="creature-container">
@@ -101,7 +103,6 @@ export const Creatures = () => {
         creature={selectedCreature}
         onClose={() => setIsModalOpen(false)}
       />
-
     </div>
   );
 };
